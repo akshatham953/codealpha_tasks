@@ -1,14 +1,19 @@
-# CodeAlpha Task 1: Web Scraping
+# CodeAlpha Task 2: Exploratory Data Analysis
 
 ## Objective
-Scrape quotes, authors, and tags from http://quotes.toscrape.com/
+Perform EDA on Titanic Dataset to find patterns and insights
 
 ## Tools Used
-Python, Requests, BeautifulSoup4, Pandas
+Python, Pandas, Matplotlib, Seaborn
+
+## Key Findings
+1. Survival Rate: ~38%
+2. Women had higher survival rate than men
+3. Average Age: ~29 years
 
 ## How to Run
-1. pip install requests beautifulsoup4 pandas
-2. python task1_webscraping.py
+pip install pandas matplotlib seaborn
+python task2_eda.py
 
-## Output
-scraped_quotes.csv - contains 10 quotes with Author and Tags
+## Output Files
+titanic_cleaned.csv, eda_charts.png
