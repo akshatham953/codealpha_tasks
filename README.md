@@ -1,19 +1,21 @@
-# CodeAlpha Task 2: Exploratory Data Analysis
+# CodeAlpha Task 3: Data Visualization
 
 ## Objective
-Perform EDA on Titanic Dataset to find patterns and insights
+Create 5 visualizations to tell a story about Titanic dataset
 
 ## Tools Used
 Python, Pandas, Matplotlib, Seaborn
 
-## Key Findings
-1. Survival Rate: ~38%
-2. Women had higher survival rate than men
-3. Average Age: ~29 years
+## Charts Included
+1. Survival Rate by Gender
+2. Survival Rate by Passenger Class  
+3. Age Distribution by Survival
+4. Fare vs Age Scatter Plot
+5. Correlation Heatmap
 
 ## How to Run
 pip install pandas matplotlib seaborn
-python task2_eda.py
+python task3_visualization.py
 
-## Output Files
-titanic_cleaned.csv, eda_charts.png
+## Output
+visualization_dashboard.png
