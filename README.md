@@ -1,21 +1,19 @@
-# CodeAlpha Task 3: Data Visualization
+# CodeAlpha Task 4: Sentiment Analysis
 
 ## Objective
-Create 5 visualizations to tell a story about Titanic dataset
+Analyze text data to classify sentiment as Positive, Negative, or Neutral
 
 ## Tools Used
-Python, Pandas, Matplotlib, Seaborn
+Python, TextBlob, Pandas, Matplotlib
 
-## Charts Included
-1. Survival Rate by Gender
-2. Survival Rate by Passenger Class  
-3. Age Distribution by Survival
-4. Fare vs Age Scatter Plot
-5. Correlation Heatmap
+## How it Works
+Uses TextBlob to calculate polarity score from -1 to 1
+> 0.1 = Positive, < -0.1 = Negative, else Neutral
 
 ## How to Run
-pip install pandas matplotlib seaborn
-python task3_visualization.py
+pip install textblob pandas
+python -m textblob.download_corpora
+python task4_sentiment.py
 
 ## Output
-visualization_dashboard.png
+sentiment_results.csv, sentiment_chart.png

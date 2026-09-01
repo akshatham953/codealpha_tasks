@@ -1,0 +1,11 @@
+Review,Polarity,Sentiment
+I love this product! It's good and works perfectly.,0.78,Positive
+This is the worst experience ever. Very disappointed.,-0.99,Negative
+The product is okay. Nothing special but works fine.,0.42,Positive
+Absolutely fantastic! Best purchase I have made.,0.75,Positive
+Terrible quality. Do not buy this.,-1.0,Negative
+It's decent for the price.,0.17,Positive
+I am so happy with the service!,1.0,Positive
+Waste of money. Very bad.,-0.55,Negative
+Average product. Could be better.,0.17,Positive
+Excellent! Highly recommend to everyone.,0.58,Positive
